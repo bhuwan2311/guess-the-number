@@ -1,5 +1,4 @@
 number = Math.floor(Math.random() * 100);
-console.log(number);
 att = 1
 function fun() {
     let nodi = document.getElementById("nodiv").value;
