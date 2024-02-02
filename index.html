@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Games.BCK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Games.BCK</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">GuessTheNo</a></li>
+                <li><a href="#">soon</a></li>
+                <li><a href="#">soon</a></li>
+                <li><a href="#">soon...</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</div>
+<div class="save" id="save">
+    <div class="score" id="score" >
+        your score is 0
+    </div>
+
+    <div class="atherscore">
+        <div class="Higee" id="hhscore">
+            HighScore is 0
+        </div>
+        <div class="avragee" id="aaverage">
+            AvgScore is 0
+        </div>
+    </div>
+
+    <div class="buton">
+        <div>
+            <button class="save_restart" onclick="save_restart()">Save&Start</button>
+        </div>
+        <div>
+            <button class="restart" onclick="save()">Restart Without Save</button>
+        </div>
+    </div>
+</div>
+    <div class="maindiv" id="maindiv">
+
+        <h1 class="headr">Guess The No Between 1 to 99</h1>
+        <div class="container">
+            <div class="enter">
+                <input type="number" placeholder="Enter Your Guess" id="nodiv" style="color: green;">
+                <button onclick="fun()">Enter</button>
+            </div>
+
+
+            <!-- <Div class="result">
+Enter the value
+</Div> -->
+
+            <div class="attempt" id="attempt">
+                Number of attempt are 0
+            </div>
+        </div>
+
+        <div>
+            <div id="hScore">
+                Hige Score = 0
+            </div>
+            <div id="avgScore">
+                AvgScore = 0
+            </div>
+        </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
