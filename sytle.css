@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+h1 {
+    color: green;
+
+}
+
+.maindiv {
+    margin: 170px 0px 0px 0px;
+    /* display: none; */
+}
+
+.enter input {
+    height: 30px;
+    width: 150px;
+    margin: 10px 15px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: green;
+}
+
+.enter button {
+    height: 30px;
+    width: 70px;
+    margin: 10px 15px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: green;
+}
+
+.attempt {
+    font-size: 30px;
+    color: Red;
+
+}
+
+.save {
+    display: none;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    z-index: 100;
+    background-color: #f3cfcf;
+    height: 45%;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    /* justify-content: center; */
+/* text-align: center; */
+}
+
+.score{
+    height: 50px;
+    /* width: 150px; */
+    margin: 10px 15px 10px 0px;
+    font-size: 40px;
+    
+    /* padding: 5px 5px 5px 5px; */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    /* border-radius: 6px; */
+    color: green;
+}
+
+.atherscore{
+    display: flex;
+}
+
+.Higee{
+    height: 30px;
+    width: 30%;
+    margin: 10px 90px 10px 60px;
+    font-size : 25px;
+}
+.avragee{
+    /* float: right; */
+    height: 30px;
+    width: 30%;
+    margin: 10px 0px 30px 0px;
+    font-size: 25px;
+}
+
+.save_restart{
+    height:30px;
+    /* width: 70px; */
+    margin: 10px 15px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: green;
+}
+
+.restart{
+    height: 30px;
+    /* width: 70px; */
+    margin: 10px 15px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: green;
+
+}
